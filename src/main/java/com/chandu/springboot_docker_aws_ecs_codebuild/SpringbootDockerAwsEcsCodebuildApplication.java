@@ -11,7 +11,7 @@ public class SpringbootDockerAwsEcsCodebuildApplication {
 
 	@GetMapping("/")
     public String hello() {
-        return "Hello, World! This is a Dockerized Spring Boot application running on AWS ECS using CodeBuild!";
+        return "Hello v2, World! This is a Dockerized Spring Boot application running on AWS ECS using CodeBuild!";
     }
 
 	public static void main(String[] args) {
