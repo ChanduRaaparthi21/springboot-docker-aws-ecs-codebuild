@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/openjdk:17
+FROM openjdk:17
 WORKDIR /app
 RUN ls -l target/  # Debugging: Check if the JAR file exists
 COPY ./target/springboot-docker-aws-ecs-codebuild.jar /app
