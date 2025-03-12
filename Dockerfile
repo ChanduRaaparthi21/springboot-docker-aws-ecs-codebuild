@@ -6,4 +6,4 @@ COPY ./target/springboot-docker-aws-ecs-codebuild.jar /app
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "springboot-docker-aws-ecs-codebuild"]
+CMD ["java", "-jar", "springboot-docker-aws-ecs-codebuild.jar"]

@@ -37,3 +37,4 @@ artifacts:
   files:
     - imagedefinitions.json
     - target/springboot-docker-aws-ecs-codebuild.jar
+
