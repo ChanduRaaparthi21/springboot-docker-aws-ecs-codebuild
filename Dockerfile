@@ -1,4 +1,5 @@
-FROM openjdk:17
+FROM amazoncorretto:17
+
 WORKDIR /app
 COPY target/springboot-docker-aws-ecs-codebuild.jar /app
 EXPOSE 8080
